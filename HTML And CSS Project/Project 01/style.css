@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFFFF;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    font-family: "Poppins";
+}
+.nav-container div:nth-child(1){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+}
+.nav-container div:nth-child(2) {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+.nav-container div:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+}
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    font-size: larger;
+}
+.list-items{
+    margin-left: 2rem;
+    font-family: "Poppins";
+    color: gray;
+    cursor: pointer;
+}
+.list-items:hover{
+    color:black
+}
+
+.nav-button{
+    padding: 25px 50px;
+    background-color: #5955B3;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+img{
+    cursor: pointer;
+}
+.nav-button:hover{
+    color: #000;
+    background-color: #BDCAFF;
+    cursor: pointer;
+}
+.mainSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2%;
+    height: 100vh;
+    width: 100%;
+}
+.rightSection{
+    height: 100%;
+    text-align: start;
+    align-items: center;
+    padding: 5%;
+
+}
+.leftSection{
+    height: 100%;
+    
+}
+h1{
+    font-size: 6rem;
+}
+.crush{
+    color: #5955B3;
+}
+.para{
+    color:grey;
+    padding-top: 30px;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+.btn-section{
+    padding: 25px 50px;
+        background-color: #5955B3;
+        color: white;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 20px;
+        font-weight: 600;
+        cursor: pointer;
+}
+.btn-group{
+    padding-top: 10%;
+}

@@ -5,6 +5,9 @@
 // console.log("my last Name is", lastname);
 // console.log(mobileno, firstname, lastname);
 
+const { kMaxLength } = require("buffer");
+const { lutimes } = require("fs");
+
 // tempate literal
 
 // console.log(
@@ -103,3 +106,62 @@ let y = "10";
 
 // console.log(name);
 // console.log(name[6]);
+
+// let backaccount = {
+//   fristName: "yvi",
+//   lastName: "LaStName",
+//   email: "yvila@gmail.com",
+//   password: "1234567890",
+//   mono: 987899887,
+//   address: "123/4 56 street",
+//   city: "City Name",
+// };
+
+// console.log(backaccount.fristName);
+
+// date and Math
+
+// const now = new Date(); // object function
+// console.log(now);
+// console.log(now.toString()); // method
+// console.log(now.getFullYear());
+// console.log(now.getMonth());
+// console.log(now.getDay());
+// console.log(now.getTime());
+// console.log(now.getHours());
+// console.log(now.getMinutes());
+// console.log(now.getMilliseconds());
+// console.log(now.getSeconds());
+
+// const PI = Math.PI;
+// console.log(PI);
+
+// console.log(Math.round(PI));
+
+// console.log(Math.round(9999));
+
+// min and max
+// console.log(Math.max(10, 1, 2, 3, 5));
+// console.log(Math.min(10, 1, 2, 3, 5));
+
+// console.log(Math.round(Math.random()) * 10);
+
+// loops
+
+// do while loop
+
+// let i = 0;
+// do {
+//   console.log("Value of i is:", i);
+//   i++;
+// } while (i <= 5);
+// let j = 0;
+// while (j <= 5) {
+//   console.log("value of j is:", j);
+//   j++;
+// }
+
+// for loop
+for (let i = 0; i <= 10; i++) {
+  console.log(`${i}*${i}=${i * i}`);
+}

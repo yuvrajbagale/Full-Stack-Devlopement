@@ -84,3 +84,62 @@
 // let var1 = Array1.join(" 1 ");
 // console.log(var1);
 // console.log(typeof var1);
+
+//Keys
+
+//For of
+
+// last indexof
+// let num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// console.log(num.indexOf(9));
+
+// let maths = [1, 4, 9, 16, 25];
+// console.log(maths.map(Math.sqrt)); //
+
+// pop
+
+// let maths = [1, 4, 9, 16, 25];
+
+// console.log(maths.pop());
+// console.log(maths);
+
+// reverse
+// let maths = [1, 2, 3, 4, 5, 6, 7, 9];
+// console.log(maths.reverse(16)); // reverser array using reverse functions
+
+// shift()
+// let maths = [1, 2, 3, 4, 5, 6, 7, 9];
+// console.log(maths.shift()); // remove the first element from an array and return that removed element
+// console.log(maths);
+
+//sort
+
+// let names = ["A", "D", "B", "C"];
+// console.log(names.reverse(names.sort()));
+
+// let names = ["a", "d", "b", "c"];
+// console.log(names.sort());
+// console.log(names.reverse(names.sort()));
+
+// unshif
+// let fruits = ["Apple", "Bada Apple", "Chotta Apple", "Double Apple"];
+
+// fruits.unshift("Apple 1", "Grapes 2"); // added element in frist  position
+
+// console.log(fruits);
+
+// converting to Array
+
+// let name = "Anurag";
+// let array1 = name.split("");
+// console.log(array1);
+
+// for of
+
+// let fruit = ["Apple", "Bada Apple", "Chota Apple", "Double Apple"];
+// let Upperfruit = [];
+
+// for (const badaletter of fruit) {
+//   Upperfruit.push(badaletter.toUpperCase());
+// }
+// console.log(Upperfruit);

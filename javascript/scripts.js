@@ -55,6 +55,32 @@
 
 // Fill
 
-let arr4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-arr4.fill("yuvraj", 2, 4); // fill the 'yuvraj' names of index 2 and 4
-console.log(arr4);
+// let arr4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// arr4.fill("yuvraj", 2, 4); // fill the 'yuvraj' names of index 2 and 4
+// // console.log(arr4);
+
+// let arr5 = [1, 2, 3, 4, 5];
+// arr5.fill("yuvraj", "akshay", 1, 2);
+// console.log(arr5);
+
+//include
+// let num = [1, 2, 3, 4, 5, 6, 7, 8];
+// console.log(num.includes(7));
+
+// indexof
+
+// let num = [1, 2, 3, "yuvraj", 4, 5, 6, 7, 8, 9];
+// console.log(num.indexOf("yuvraj"));
+
+// isArray()
+// let num = [1, 2, 3, "Yuvraj", 4, 5, 6, 7, 8, 9];
+// let num1 = "yuvraj";
+// console.log(Array.isArray(num1));
+// console.log(Array.isArray(num));
+
+//join
+
+// let Array1 = [1, 2, 3, 4, 5, 6, 7];
+// let var1 = Array1.join(" 1 ");
+// console.log(var1);
+// console.log(typeof var1);

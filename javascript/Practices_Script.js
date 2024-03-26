@@ -165,3 +165,5 @@ let y = "10";
 for (let i = 0; i <= 10; i++) {
   console.log(`${i}*${i}=${i * i}`);
 }
+
+// object and function part it's pending 

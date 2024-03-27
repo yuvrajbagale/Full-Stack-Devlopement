@@ -34,3 +34,4 @@ sayMyName();
 
 // Normal Function and function with parameters
 //Normal functions
+// Function with Parameters

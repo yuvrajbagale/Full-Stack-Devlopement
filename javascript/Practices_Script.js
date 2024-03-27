@@ -162,6 +162,14 @@ let y = "10";
 // }
 
 // for loop
+<<<<<<< HEAD
 // for (let i = 0; i <= 10; i++) {
 //   console.log(`${i}*${i}=${i * i}`);
 // }
+=======
+for (let i = 0; i <= 10; i++) {
+  console.log(`${i}*${i}=${i * i}`);
+}
+
+// object and function part it's pending 
+>>>>>>> 1e11e55ab6abb9983d413127f769914e0bbed0c7

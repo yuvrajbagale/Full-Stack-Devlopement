@@ -143,3 +143,14 @@
 //   Upperfruit.push(badaletter.toUpperCase());
 // }
 // console.log(Upperfruit);
+
+// Break And Continues
+// for (let i = 0; i <= 5; i++) {
+//   if (i == 3) {
+//     // break;
+//     continue;
+//   }
+//   console.log(i);
+// }
+
+//Array Methods in javascrip and Write a blog on it => Compulsory
